@@ -29,15 +29,15 @@ A simple yet powerful domain search application that helps you check domain avai
 ### Prerequisites
 
 Before you begin, ensure you have the following installed:
-- Node.js (v16 or higher)
-- npm (comes with Node.js) or yarn
-- MongoDB (local or cloud instance)
+- Node.js 
+- npm 
+- MongoDB 
 
 ### Installation
 
 1. Clone the repository:
    ```bash
-   git clone <your-repo-url>
+   git clone 
    cd domain-search
    ```
 
@@ -59,8 +59,7 @@ Create a `.env` file in the backend directory with the following configuration:
 ```env
 PORT=3001
 FRONTEND_URL=http://localhost:5173
-MONGODB_URI=your_mongodb_connection_string
-RATE_LIMIT=100
+MONGODB_URI=" "
 NODE_ENV=development
 ```
 
